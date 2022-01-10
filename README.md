@@ -46,18 +46,9 @@ git fetch
 ## gets changes from another branch to my branch
 git pull origin suliyat
 
+### if git asks to specify how to reconcile branches
+git pull origin suliyat --rebase
+git rebase --continue
+
 ## delete branch (careful)
 git branch -d name_of_branch
-
-
-# Serving Data via HTTP with NodeJS & Express.
-##
-##
-
-# 3. Saving and Reading Data Persistently with NodeJS.
-## 3.1 Node Persist
-## 3.2 MongoDB
-
-# Questions
-
-- How to push to repository?
